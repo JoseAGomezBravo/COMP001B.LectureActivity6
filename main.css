@@ -1,0 +1,23 @@
+#outer-container {
+    display: grid;
+    grid-template-rows: 250px auto 250px;
+}
+header {
+    background-color: red;
+}
+
+main {
+    background-color: green;
+}
+
+footer {
+    background-color: blue;
+}
+
+#columns {
+    display: grid;
+    grid-template-columns: 25% 50% 25%;
+    height: auto;
+
+}
+
